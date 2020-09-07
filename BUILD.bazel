@@ -15,5 +15,10 @@ cc_library(
     visibility = ["//visibility:public"],
     includes = ["include"],
     hdrs = glob(_public_hdrs),
-    deps = [":utility_internal"],
+    deps = [
+        ":utility_internal",
+        "@boost//preprocessor",
+        "@boost//io",
+        "@boost//container_hash",
+    ],
 )

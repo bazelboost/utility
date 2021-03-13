@@ -20,5 +20,6 @@ cc_library(
         "@boost//preprocessor",
         "@boost//io",
         "@boost//container_hash",
+        "@boost//core",
     ],
 )

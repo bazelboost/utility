@@ -17,9 +17,9 @@ cc_library(
     hdrs = glob(_public_hdrs),
     deps = [
         ":utility_internal",
-        "@boost//preprocessor",
-        "@boost//io",
-        "@boost//container_hash",
-        "@boost//core",
+        "@boost//libs/preprocessor",
+        "@boost//libs/io",
+        "@boost//libs/container_hash",
+        "@boost//libs/core",
     ],
 )
